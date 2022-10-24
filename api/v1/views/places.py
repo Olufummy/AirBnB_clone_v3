@@ -151,3 +151,4 @@ def places_search():
                     break
             i += 1
     return jsonify([place.to_dict() for place in places])
+  
